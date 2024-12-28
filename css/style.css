@@ -3,7 +3,7 @@
     margin: 0;
     box-sizing: border-box;
 }
-body{
+.site{
     background-color: black;
     color: white;
     font-family: 'roboto slab';
@@ -23,8 +23,8 @@ body{
             }
             .navbar{
                 float: right;
-                ul{
-                    li{
+                .list{
+                    .list-item{
                         float: left;
                         list-style-type: none;
                         padding: 15px;
@@ -33,12 +33,12 @@ body{
                         font-size: 15px;
                         transition: all .5s ease-out;
                         border-radius: 10px;
-                        a{
+                        .list-link{
                             color: white;
                             text-decoration: none;
                         }
                     }
-                    li:hover{
+                    .list-item:hover{
                         background-color: rgb(119, 0, 0);
                         cursor: pointer;
                     }
@@ -46,13 +46,13 @@ body{
             }
         }
         .hero{
-            img{
+            .hero-img{
                 margin: 10px 0;
                 width: 100%;
                 border-radius: 10px;
                 transition: all .5s ease-out;
             }
-            img:hover{
+            .hero-img:hover{
                 border: 2px solid tomato;
                 border-radius: 50px;
             }
